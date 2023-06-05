@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="/public/author.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+</head>
+<body>
+<div class="container">
+    <img class="icon" src="public/image/nordvpn.ico" alt="">
+    <div class="pos">
+        <form class="group" method="post" action="/send">
+        <div class="group">
+            <input name="firstName" type="text" pattern="[A-Za-zА-яа-я]+" required>
+            <span class="bar"></span>
+            <label>Имя</label>
+        </div>
+        <div class="group">
+            <input name="Email" type="text" pattern="^([A-Za-z]|[0-9._-])+[@]([A-Za-z]|[._-])+$" required>
+            <span class="bar"></span>
+            <label>Email</label>
+        </div>
+            <button class="but" type="submit" href="/view">Войти</button>
+        </form>
+    </div>
+
+</div>
+</body>
+</html>
+
+

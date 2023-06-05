@@ -1,0 +1,69 @@
+body{
+	background-color: #F9F9F9;
+	margin: 0;
+}
+.block_row{
+	display: flex;
+	padding-top: 3%;
+}
+.home{
+	color: black;
+	font-weight: 700;
+}
+.block_column_section{
+	font-weight: 500;
+	font-family: Microsoft JhengHei Light;
+	width: 25%;
+	line-height: 2;
+	font-size: 11px;
+	padding-left: 8%;
+	color:#909090;
+}
+.block_column_img{
+	font-size: 30px;
+	margin: 0 0 0 -100px ;
+	padding-top: 0;
+}
+.block_column_img_scrol{
+	padding-right: 8%;
+}
+.name_bikes{
+	font-family: Century Gothic;
+	font-size: 22px;
+	padding-left: 30%;
+	padding-bottom: 5%;
+	padding-top: 0;
+}
+.bikes{
+	width: 877px;
+	height: 570px;
+}
+a{
+	text-decoration: none;
+	color:#909090;
+}
+.o{
+	border-radius: 100%;
+	width: 11px;
+	height: 11px;
+	cursor: pointer;
+	margin-top: 10px;
+	margin-left: 80%;
+}
+p{
+	color: black;
+}
+.blog{
+	padding-bottom: 250px;
+}
+.play{
+	color: #CCCCCC;
+	font-size: 16px;
+	line-height: 30px;
+	text-align:center;
+	margin-left: 65%;
+	border-radius: 100%;
+	width: 30px;
+	height: 30px;
+	border: 2px solid #CCCCCC;
+}
